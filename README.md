@@ -29,6 +29,15 @@ The design focuses on reliable data transfer and proper clock domain crossing (C
 - Functional verification using Verilog testbenches
 - Waveform analysis performed using simulation tools
 
+## Simulation Waveforms
+
+### Synchronous FIFO
+![Sync FIFO](images/sync_fifo_waveform.png)
+
+### Asynchronous FIFO
+![Async FIFO](images/async_fifo_waveform.png)
+
+
 ## Tools Used
 - Xilinx Vivado (RTL simulation and synthesis)
 
