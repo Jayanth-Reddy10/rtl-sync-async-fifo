@@ -32,10 +32,12 @@ The design focuses on reliable data transfer and proper clock domain crossing (C
 ## Simulation Waveforms
 
 ### Synchronous FIFO
-![Sync FIFO](sync_fifo_waveform.png)
+[View Synchronous FIFO Waveform](sync_fifo_waveform.png)
+
 
 ### Asynchronous FIFO
-![Async FIFO](async_fifo_waveform.png)
+[View Asynchronous FIFO Waveform](async_fifo_waveform.png)
+
 
 
 
