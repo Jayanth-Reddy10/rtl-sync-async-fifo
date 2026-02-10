@@ -18,6 +18,13 @@ The design focuses on reliable data transfer and proper clock domain crossing (C
 - Two flip-flop synchronizers for CDC
 - Full and Empty flag logic
 
+## Simulation
+ - The synchronous and asynchronous FIFO designs were verified using Xilinx Vivado through RTL simulation.
+ - For the synchronous FIFO, full and empty boundary conditions were validated.
+ - For the asynchronous FIFO, independent write and read clocks were used to verify correct clock domain crossing (CDC), along with full and empty flag behavior       through waveform analysis.
+
+
+
 ## Verification
 - Functional verification using Verilog testbenches
 - Waveform analysis performed using simulation tools
